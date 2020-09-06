@@ -2,20 +2,21 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="max-w-3xl container mx-auto">
       <Head>
-        <title>Create Next App</title>
+        <title>Fast Launch</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <p className="text-2xl font-light">
+          Next + Tailwind
+        </p>
+
+        <h1 className="text-5xl font-semibold">
+          Fast Launch
         </h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
